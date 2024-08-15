@@ -1,28 +1,28 @@
-# Company Profile Project
+# Proyek Company Profile 🚀
 
 ## Teknologi yang Digunakan
 
-Proyek ini adalah pembuatan company profile menggunakan berbagai teknologi modern untuk membangun antarmuka yang responsif dan elegan. Berikut adalah teknologi yang digunakan dalam proyek ini:
+Di proyek ini, saya menggunakan beberapa teknologi yang memudahkan dalam pembuatan company profile yang modern dan responsif. Berikut teknologinya:
 
-### 1. React
+### 1. React ⚛️
 
-React adalah pustaka JavaScript untuk membangun antarmuka pengguna. React memungkinkan pembuatan komponen yang dapat digunakan kembali dan memudahkan pengelolaan status aplikasi.
+React adalah library JavaScript yang membantu membangun user interface (UI). Dengan React, saya bisa membuat komponen yang bisa digunakan kembali dan mudah dikelola, sehingga proyek ini lebih terstruktur dan efisien.
 
-### 2. TypeScript
+### 2. TypeScript 🛠️
 
-TypeScript adalah bahasa pemrograman yang merupakan superset dari JavaScript dengan tipe statis. TypeScript membantu menangkap kesalahan lebih awal selama pengembangan dengan menyediakan tipe data yang kuat dan alat bantu pengembangan yang lebih baik.
+TypeScript adalah pengembangan dari JavaScript yang menambahkan tipe data statis. Dengan TypeScript, saya bisa menulis kode yang lebih aman dan mengurangi kemungkinan terjadinya bug, karena kesalahan bisa terdeteksi lebih awal.
 
-### 3. Tailwind CSS
+### 3. Tailwind CSS 🎨
 
-Tailwind CSS adalah framework utilitas-first untuk CSS yang memungkinkan kamu membangun desain yang responsif dan dapat disesuaikan dengan mudah. Dengan Tailwind, kamu dapat menghindari menulis CSS kustom yang berlebihan dan fokus pada penataan langsung di markup HTML.
+Tailwind CSS adalah framework CSS yang menggunakan pendekatan utility-first, yang membuat styling jadi lebih cepat dan mudah. Daripada menulis CSS kustom dari awal, dengan Tailwind saya bisa fokus pada penataan langsung di HTML, sehingga desain lebih konsisten dan responsif.
 
-### 4. Lucide-react
+### 4. Lucide-react 🔍
 
-Lucide-react adalah pustaka ikon yang menyediakan ikon-ikon SVG yang mudah digunakan di aplikasi React. Dengan Lucide-react, kamu bisa menambahkan berbagai ikon dengan cara yang sederhana dan efisien.
+Lucide-react adalah library ikon SVG yang mudah digunakan di aplikasi React. Dengan Lucide-react, saya bisa menambahkan ikon-ikon yang ringan dan konsisten karena tidak terlalu banyak pilihan seperti `react-icons`.
 
-### 5. Next UI
+### 5. Next UI 🧩
 
-Next UI adalah pustaka komponen UI untuk React yang menyediakan komponen-komponen siap pakai dengan desain yang modern dan aksesibilitas yang baik. Next UI membantu mempercepat pengembangan antarmuka pengguna dengan menyediakan berbagai komponen yang dapat disesuaikan.
+Next UI adalah library komponen UI untuk React yang menyediakan komponen siap pakai dengan desain modern. Dengan Next UI, saya bisa mempercepat pembuatan antarmuka tanpa harus memikirkan desain dari nol, karena sudah ada komponen-komponen yang bisa langsung digunakan dan disesuaikan.
 
 # React + TypeScript + Vite
 
