@@ -10,21 +10,7 @@ export default function ImgWords() {
           initial={{ y: -100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
         >
-          <div className="grid grid-cols-2 items-center gap-4">
-            <div>
-              <Image src="/home/office3.jpg" alt="Office People 3" />
-            </div>
-
-            <div>
-              <Image
-                src="/home/office1.jpg"
-                alt="Office People 1"
-                className="mb-4"
-              />
-
-              <Image src="/home/office2.jpg" alt="Office People 2" />
-            </div>
-          </div>
+          <Image src="/home/office.png" alt="Office People" />
         </motion.div>
 
         <motion.div

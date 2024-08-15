@@ -29,7 +29,7 @@ export default function BigBanner() {
           whileInView={{ y: 0, opacity: 1 }}
         >
           <Image
-            src="/home/software.png"
+            src="/home/chart.png"
             alt="Best ERP Solution"
             className="h-72"
           />

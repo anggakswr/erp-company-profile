@@ -45,7 +45,7 @@ const solutions = [
 export default function OurSolutions() {
   return (
     <>
-      <div className="px-4 py-8 md:p-20">
+      <div className="container px-4 py-8 md:p-20">
         <div className="text-center">
           <h2 className="mb-4 text-xl font-bold md:text-3xl">Our Solutions</h2>
           <p className="mx-auto mb-20 text-sm text-gray-500 md:w-1/2 md:text-base">

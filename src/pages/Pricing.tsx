@@ -7,13 +7,10 @@ import { motion } from "framer-motion";
 const starterBenefits = [
   "Mencatat barang masuk",
   "Mencatat barang keluar",
-  "Mencatat hasil keuntungan",
+  "Hasil keuntungan",
 ];
 
-const proBenefits = [
-  "Hasil analisa penjualan dengan Chart",
-  "Support 7x24 jam",
-];
+const proBenefits = ["Analisa dengan Chart", "Support 7x24 jam"];
 
 const enterpriseBenefits = ["Export data ke Excel", "AI Prediksi penghasilan"];
 

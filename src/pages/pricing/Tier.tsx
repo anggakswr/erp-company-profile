@@ -55,13 +55,10 @@ export default function Tier(props: TierProps) {
           <hr className="mb-4" />
 
           {tier.benefits.map((ben) => (
-            <Chip
-              key={`${tier.title}-${ben}`}
-              variant="light"
-              startContent={<Check color="green" />}
-            >
-              {ben}
-            </Chip>
+            <div key={`${tier.title}-${ben}`} className="flex gap-2">
+              <Check color="green" />
+              <p className="flex-1 text-sm">{ben}</p>
+            </div>
           ))}
         </div>
       </Card>

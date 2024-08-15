@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.box-between {
+  @apply flex items-center justify-between;
+}
+
 .box-center {
   @apply flex items-center justify-center;
 }

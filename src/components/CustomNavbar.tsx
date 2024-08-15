@@ -10,6 +10,7 @@ import {
 } from "@nextui-org/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import LoginModal from "./custom-navbar/LoginModal";
 
 const links = [
   { text: "About", href: "/about" },
@@ -47,6 +48,10 @@ export default function CustomNavbar() {
               </Link>
             </NavbarItem>
           ))}
+
+          <NavbarItem>
+            <LoginModal />
+          </NavbarItem>
         </NavbarContent>
 
         <NavbarMenu>
