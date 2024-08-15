@@ -22,7 +22,7 @@ const points = [
 export default function ThreePoints() {
   return (
     <>
-      <div className="container relative z-10 grid gap-8 p-4 md:grid-cols-3 md:p-20">
+      <div className="container relative z-10 grid gap-8 px-4 py-8 md:grid-cols-3 md:p-20">
         {points.map((point) => (
           <div key={point.title} className="flex gap-4">
             <div>

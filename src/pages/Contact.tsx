@@ -7,7 +7,7 @@ import CustomGmap from "../components/CustomGmap";
 export default function Contact() {
   return (
     <>
-      <CustomBreadcrumb img="/home/office2.jpg" title="Contact" />
+      <CustomBreadcrumb img="/home/office3.jpg" title="Contact" />
 
       <section className="p-4 md:p-20">
         <div className="mb-8 mt-8 text-center md:mt-0">
