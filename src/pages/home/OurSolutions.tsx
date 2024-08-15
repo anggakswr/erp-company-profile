@@ -7,6 +7,7 @@ import {
   Factory,
   ClipboardList,
 } from "lucide-react";
+import { motion } from "framer-motion";
 
 const solutions = [
   {
@@ -53,7 +54,11 @@ export default function OurSolutions() {
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          className="grid gap-8 md:grid-cols-3"
+        >
           {solutions.map((sol) => (
             <Card key={sol.title} className="p-4">
               <Button isIconOnly disabled color="primary" className="mb-4">
@@ -64,7 +69,7 @@ export default function OurSolutions() {
               <p>{sol.desc}</p>
             </Card>
           ))}
-        </div>
+        </motion.div>
       </div>
     </>
   );

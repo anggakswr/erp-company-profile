@@ -1,11 +1,15 @@
 import { Button, Image } from "@nextui-org/react";
 import { ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function ImgWords() {
   return (
     <>
       <div className="container grid items-center gap-8 px-4 py-8 md:grid-cols-2 md:p-20">
-        <div>
+        <motion.div
+          initial={{ y: -100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+        >
           <div className="grid grid-cols-2 items-center gap-4">
             <div>
               <Image src="/home/office3.jpg" alt="Office People 3" />
@@ -21,9 +25,12 @@ export default function ImgWords() {
               <Image src="/home/office2.jpg" alt="Office People 2" />
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div>
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+        >
           <h2 className="mb-4 text-xl font-bold md:text-3xl">
             Integrasi Data yang Komprehensif
           </h2>
@@ -39,7 +46,7 @@ export default function ImgWords() {
           <Button color="primary" endContent={<ArrowRight />}>
             Pelajari
           </Button>
-        </div>
+        </motion.div>
       </div>
     </>
   );

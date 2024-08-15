@@ -9,7 +9,7 @@ export default function Contact() {
     <>
       <CustomBreadcrumb img="/home/office3.jpg" title="Contact" />
 
-      <section className="p-4 md:p-20">
+      <section className="container p-4 md:p-20">
         <div className="mb-8 mt-8 text-center md:mt-0">
           <p className="mb-2 text-sm font-bold text-primary">CONTACT US</p>
           <h2 className="text-3xl font-bold">Contact For Any Query</h2>

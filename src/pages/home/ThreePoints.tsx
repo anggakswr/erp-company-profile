@@ -1,5 +1,6 @@
 import { Button } from "@nextui-org/react";
 import { PenTool, ToggleRightIcon, TowerControl } from "lucide-react";
+import { motion } from "framer-motion";
 
 const points = [
   {
@@ -23,8 +24,13 @@ export default function ThreePoints() {
   return (
     <>
       <div className="container relative z-10 grid gap-8 px-4 py-8 md:grid-cols-3 md:p-20">
-        {points.map((point) => (
-          <div key={point.title} className="flex gap-4">
+        {points.map((point, i) => (
+          <motion.div
+            key={point.title}
+            initial={{ y: i % 2 ? 100 : -100, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            className="flex gap-4"
+          >
             <div>
               <Button isIconOnly color="primary" disabled>
                 {point.icon}
@@ -35,7 +41,7 @@ export default function ThreePoints() {
               <p className="font-bold">{point.title}</p>
               <p className="text-gray-500">{point.desc}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </>
